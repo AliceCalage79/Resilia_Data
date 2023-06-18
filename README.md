@@ -7,11 +7,8 @@
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades](#funcionalidades)
-* [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
 * [Conclusão](#conclusão)
 
 # Descrição do Projeto
@@ -43,3 +40,5 @@ Relacionamentos :
 * projeto - contrato (1 para n)
 * empresa - contrato (1 para n);
 * colaborador - contrato (1 para 1 )
+
+# Tecnologias Utilizadas
