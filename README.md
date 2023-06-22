@@ -10,7 +10,7 @@
 * [Funcionalidades](#funcionalidades)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Conclusão](#conclusão)
+
 
 # Descrição do Projeto
 
@@ -46,3 +46,6 @@ Relacionamentos :
 - Draw.io
 - Mysql Workbench
 - Excel
+
+# Pessoas Desenvolvedoras do Projeto
+Esse projeto foi desenvolvido por Alice Niriam Calage Campos

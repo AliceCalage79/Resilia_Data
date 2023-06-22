@@ -1,0 +1,36 @@
+Realizar essa modelagem e responder algumas perguntas com nosso
+modelo:
+1. Quais são as entidades necessárias?;
+    As entidades usadas nesse projeto são:
+    * empresa;
+    * empresa_area;
+    * area;
+    * area_tecnologia;
+    * tecnologia;
+    * projeto_area_tecnologia;
+    * colaborador;
+    * contrato_colaborador_empresa_tecnologia
+
+
+2. Quais são os principais campos e seus respectivos tipos?;
+    * empresa - id (chave primaria);
+    * empresa_area - area_id (chave estrangeira), empresa_id (chave estrangeira)
+    * area - id (chave primaria)
+    * area_tecnologia - area_id (chave estrangeira), tecnologia_id (chave estrangeira)
+    * tecnologia - id (chave primaria)
+    * projeto_area_tecnologia - id (chave primaria), area_id (chave estrangeira), tecnologia_id(chave estrangeira)
+    * colaborador id (chave primaria)
+    * contrato_colaborador_empresa_tecnologia  - contrato_id (chave primaria), colaborador_id (chave estrangeira), 
+      empresa_id (chave estrangeira), projeto_id (chave estrangeira)
+
+3. Como essas entidades estão relacionadas?;
+* empresa - area (n para n);
+* area - tecnologia (n para n);
+* area - projeto (1 para n);
+* tecnologia - projeto (1 para n);
+* projeto - contrato (1 para n)
+* empresa - contrato (1 para n);
+* colaborador - contrato (1 para 1 )
+
+4. Simule 2 registros para cada entidade.
+   As tabelas com dados preenchidos estâo no ResiliaData.xls que se encontra dentro da pasta ResiliaData
