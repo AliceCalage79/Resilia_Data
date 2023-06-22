@@ -42,3 +42,6 @@ Relacionamentos :
 * colaborador - contrato (1 para 1 )
 
 # Tecnologias Utilizadas
+- Draw.io
+- Mysql Workbench
+- Excel
